@@ -1,0 +1,8 @@
+attributes {
+    faculty: text
+    num: number
+    year: number
+    w: boolean
+    p: boolean
+    name: text = faculty + num
+}
